@@ -82,5 +82,6 @@ KEYWORDS = [
 ]
 
 # Sanity checks
+assert len(KEYWORDS) == 61, f"expected 61 keywords, got {len(KEYWORDS)}"
 assert len(set(KEYWORDS)) == len(KEYWORDS), "duplicate keyword in KEYWORDS"
 assert ANCHOR in KEYWORDS, "ANCHOR must be one of the KEYWORDS"
