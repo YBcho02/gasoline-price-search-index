@@ -68,7 +68,6 @@ gasoline-price-search-index/
 | `data/raw/gtrends_anchor_ratios.csv` | Google Trends, via trendspy | Each term retrieved jointly with "gas price" |
 | `data/raw/OPU_index_monthly.csv` | [policyuncertainty.com](https://www.policyuncertainty.com/oil_uncertainty.html) | Oil price uncertainty index |
 | `data/raw/WuXiaShadowRate.csv` | [Federal Reserve Bank of Atlanta](https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate) | Spliced with the effective federal funds rate after 2023M06 |
-| `data/raw/fred_snapshot.csv` | [FRED](https://fred.stlouisfed.org) | PAYEMS, INDPRO, CPIAUCSL, FEDFUNDS, GASREGCOVM, and series used in robustness checks |
 | `data/processed/gps_index.csv` | Constructed | Output of `02_index_construction` |
 
 The real gasoline price is the regular conventional retail price (GASREGCOVM) deflated by the CPI (CPIAUCSL).
